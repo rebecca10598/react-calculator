@@ -1,0 +1,45 @@
+.calculator 
+{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.display 
+{
+    width: 94%;
+    height: 40px;
+    background: white;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #ccccccd1;
+    border-radius: 5px;
+}
+
+.buttons 
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button 
+{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid #8beee9;
+    border-radius: 5px;
+    background: white;
+}
+
+button:active 
+{
+    background: #f0f0f0;
+}
